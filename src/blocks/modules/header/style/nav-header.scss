@@ -1,0 +1,139 @@
+
+
+.nav-banner .icon-header {
+	margin-bottom: 10px;
+}
+.nav-banner .icon-header:first-child {
+	float: left;
+}
+.nav-banner .icon {
+	padding-top: 7px;
+	
+	text-align: center;
+}
+
+
+.contact {
+	font-family: 'RobotoT';
+    color: #869caf;
+    font-size: 20px;
+}
+.contact span {
+    font-family: 'RobotoR';
+}
+.contact-sm {
+	text-align: right;
+	color: #caddea;
+
+}
+.contact-sm p {
+	font-size: 16px;
+	margin-bottom: 0;
+	margin-right: 16px;
+
+}
+.nav-header {
+	background-color: #1b7fd0;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+}
+
+@media (max-width: 1200px) {
+  .nav-header {
+    height: 50px;
+    padding-top: 8px;
+    padding-right: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-header {
+    height: 50px;
+    padding: 0;
+  }
+}
+
+
+
+
+.navigate {
+	padding: 0;
+	/*text-align: center;*/
+	display: flex;
+	justify-content: space-between;
+}
+.navigate li{
+	/*display:inline-block;*/
+	list-style-type: none;
+	padding-left: 20px;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	flex-grow: 1;
+}
+.navigate a {
+	color: #fff;
+	text-decoration: none;
+	font-family: 'RobotoR';
+	/*border-right: 2px solid #fff;*/
+	font-size: 20px;
+}
+.logo {
+	width: 132px;
+}
+
+
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+  display: block;
+  position: absolute;
+  width: 66px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.menu-btn > span::before {
+  content: '';
+  top: -14px;
+}
+.menu-btn > span::after {
+  content: '';
+  top: 14px;
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  left: 74%;
+  width: 26px;
+  height: 26px;
+}
+
+.menu-btn-nav > span,
+.menu-btn-nav > span::before,
+.menu-btn-nav > span::after {
+  display: block;
+  position: absolute;
+  width: 66px;
+  height: 5px;
+  background-color: #fff;
+}
+
+.menu-btn-nav > span::before {
+  content: '';
+  top: -14px;
+}
+.menu-btn-nav > span::after {
+  content: '';
+  top: 14px;
+}
+.menu-btn-nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 82px;
+  left: 50px;
+  width: 26px;
+  height: 26px;
+}
+
+

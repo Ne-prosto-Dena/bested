@@ -1,0 +1,27 @@
+.top-header {
+	background: #013056 url(../img/Bg1-1.svg) no-repeat center;
+	background-size: cover;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.top-header {
+	display: flex;
+	align-items: center;
+
+}
+
+.top-header p {
+	color: #fff;
+	margin-bottom: 0;
+}
+.top-header p:first-of-type {
+	margin-right: 10px;
+}
+@media (max-width: 768px) {
+	.top-header {
+		padding: 5px;
+	}
+}
+
